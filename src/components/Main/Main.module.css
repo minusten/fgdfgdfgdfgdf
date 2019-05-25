@@ -1,0 +1,38 @@
+
+
+.cat-img:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg)
+}
+.main {
+    display: grid;
+
+    grid-template-areas: 
+    "h h"
+    "n c";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+    
+}
+
+.header {
+    grid-area: h;
+    background-color: cadetblue
+}
+
+.nav {
+    grid-area:  n;
+    background-color: darksalmon;
+   
+}
+.nav li {
+    list-style-type: none;
+}
+
+.content {
+    grid-area:  c;
+    background-color: darkgreen
+}

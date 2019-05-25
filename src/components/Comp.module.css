@@ -1,0 +1,7 @@
+.content {
+    background-color: goldenrod
+}
+
+.content.active {
+    background-color: indigo
+}
